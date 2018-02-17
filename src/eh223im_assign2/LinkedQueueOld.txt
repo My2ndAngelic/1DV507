@@ -1,0 +1,168 @@
+package eh223im_assign2;
+
+import javax.xml.soap.Node;
+import java.util.Iterator;
+
+/**
+ * Modified slightly from
+ *
+ * */
+//public class LinkedQueueOld implements Queue {
+//
+//
+//    private int size = 0;
+//    private Node head;
+//    private Node last;
+//
+//
+//    /**
+//     * Linked Queue constructor, initialize
+//     */
+//    public LinkedQueueOld() {
+//        head = null;
+//        last = null;
+//        size = 0;
+//    }
+//
+//    /**
+//     * Private inner Node class
+//     */
+//    class Node {
+//        Object value;
+//        Node next = null;
+//
+//        Node(Object v) {
+//            value = v;
+//        }
+//
+//        public Object value() {
+//
+//        }
+//    }
+//
+//
+//
+//
+//    public Node getHead() {
+//        return head;
+//    }
+//
+//    public Node getLast() {
+//        return last;
+//    }
+//
+//    public void add(int n) {
+//        if (head == null) // Add first element
+//            head = new Node(n);
+//        else {
+//            Node node = head;
+//            while (node.next != null ) // Find last node
+//                node = node.next;
+//            node.next = new Node(n); // Attach new node
+//        }
+//        size ++;
+//    }
+//
+//    private int first;
+//    private int last;
+//
+//    /**
+//     * Get the current queue size
+//     * @return current queue size
+//     */
+//
+//    private Node k = 0;
+//    @Override
+//    public int size() {
+//        return size;
+//    }
+//
+//    /**
+//     * Check if the array is empty
+//     * @return true if empty, false otherwise
+//     */
+//    @Override
+//    public boolean isEmpty() {
+//        return size() == 0;
+//    }
+//
+//    /**
+//     * Add element to the last position of the queue,
+//     * resize if the Object array field if the length is limited.
+//     * @param element add the element to the last position of the array.
+//     */
+//    @Override
+//    public void enqueue(Object element) {
+//
+//    }
+//
+//    /**
+//     * Remove the first element from the queue
+//     * @return the removed element
+//     * @throws IndexOutOfBoundsException if the queue is empty.
+//     */
+//    @Override
+//    public Object dequeue() throws IndexOutOfBoundsException {
+//
+//    }
+//
+//    /**
+//     * Get the first element in the queue.
+//     * @return first element in the queue
+//     * @throws IndexOutOfBoundsException if the queue is empty.
+//     */
+//    @Override
+//    public Object first() throws IndexOutOfBoundsException {
+//
+//    }
+//
+//    /**
+//     * Get the last element in the queue.
+//     * @return last element in the queue
+//     * @throws IndexOutOfBoundsException if the queue is empty.
+//     */
+//    @Override
+//    public Object last() throws IndexOutOfBoundsException{
+//
+//    }
+//
+//    /**
+//     * Print all the element in the queue with the fixed format: [first, second, ..., last]
+//     * @return string contains all elements in the queue.
+//     */
+//    @Override
+//    public String toString() {
+//
+//    }
+//
+//    /**
+//     * Iterate the queue
+//     * @return new method to iterate the queue.
+//     */
+//    @Override
+//    public Iterator <Object> iterator() {
+//        return new QueueIterator();
+//    }
+//
+//    class QueueIterator implements Iterator <Object> {
+//        private Node node = head;
+//        @Override
+//        public boolean hasNext() {
+//            return node != null;
+//        }
+//
+//        @Override
+//        public Object next() {
+//            Object val = node.value();
+//            node = node.next;
+//            return val;
+//        }
+//
+//        @Override
+//        public void remove() {
+//            throw new RuntimeException("remove() is not implemented");
+//        }
+//    }
+}
+
+

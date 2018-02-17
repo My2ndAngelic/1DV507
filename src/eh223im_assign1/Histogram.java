@@ -1,17 +1,22 @@
 package eh223im_assign1;
 
-import org.knowm.xchart.*;
+import org.knowm.xchart.CategoryChart;
+import org.knowm.xchart.CategoryChartBuilder;
+import org.knowm.xchart.CategorySeries;
+import org.knowm.xchart.SwingWrapper;
 import org.knowm.xchart.style.Styler;
 
-import java.io.*;
-import java.lang.reflect.Array;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Histogram {
     public static void main(String[] args) throws FileNotFoundException {
+
         Scanner scan = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
         System.out.print("Please enter the input file path: ");
         String inputFile = scan.nextLine();
