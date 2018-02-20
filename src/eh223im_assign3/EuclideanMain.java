@@ -20,7 +20,6 @@ public class EuclideanMain {
         int n2 = s;
 
         // Euclidean algorithm
-        // Sorry about that, but this is too well-known to be cited
         while (f != s) {
             if (f > s) {
                 f -= s;
