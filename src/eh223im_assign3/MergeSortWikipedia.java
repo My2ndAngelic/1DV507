@@ -53,5 +53,6 @@ public class MergeSortWikipedia {
     public void CopyArray(int[] A, int iBegin, int iEnd, int[] B) {
         for (int i = iBegin; i<iEnd; i++) {
             A[i] = B[i]  ;
-        }    }
+        }    
+    }
 }

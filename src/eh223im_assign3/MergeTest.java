@@ -5,7 +5,7 @@ import java.util.Random;
 
 public class MergeTest {
     public static void main(String[] args) {
-        int[] code = new int[7];
+        int[] code = new int[10000];
 
         for (int i = 0; i<code.length; i++) {
             code[i] = new Random().nextInt(100)+1;
@@ -135,14 +135,4 @@ public class MergeTest {
 //        }
 //        System.out.println(Arrays.deepToString(code2));
     }
-
-    static void mergeSplit() {
-
-    }
-
-    static void merge() {
-
-    }
-
-
 }
