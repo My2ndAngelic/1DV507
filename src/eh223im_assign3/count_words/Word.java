@@ -31,41 +31,40 @@ public class Word implements Comparable<Word> {
 
     //... compute a hash value for word
     // Return representation of the character, expect 'C' and 'c' be the same.
+    // Not guarantee to work properly
+    // Maybe merge sort can solves ???
     @Override
     public int hashCode() {
-        // In class
+//         In class
         int hV = 0;
-        for (char aC : word.toCharArray()) {
-            hV += Character.getNumericValue(aC);
+        char[] c = word.toCharArray();
+        for (int i = 0; i < c.length; i++) {
+            hV += 37 * (Character.getNumericValue(c[i])) * (i + 1) + (i + 1);
         }
         return hV;
-
-////    Apache Common Codec library - Maven
-//        try {
-//            String s = DigestUtils.sha1Hex(word.getBytes("UTF-8"));
-//            char[] c = s.toCharArray();
-//            int hash = 0;
-//            for (char aC : c) {
-//                hash += Character.getNumericValue(aC);
-//            }
-//            return hash;
-//        } catch (UnsupportedEncodingException e) {
-//            e.printStackTrace();
-//        }
-//        return -1;
-    }
-
-    public int hashCode(char c) {
-        return Character.getNumericValue(c);
+//        return word.toUpperCase().hashCode();
     }
 
     //... true if two words are equal
     @Override
     public boolean equals(Object other) {
         if (other instanceof Word) {
-            Word otherWord = (Word) other;
-            return word.equals(otherWord.word);
-        } return false;
+            if (((Word) other).length != word.length()) {
+                return false;
+            } else {
+                char[] c = other.toString().toUpperCase().toCharArray();
+                char[] c2 = word.toUpperCase().toCharArray();
+
+                for (int i = 0; i < c.length; i++) {
+                    if (c[i] != c2[i]) {
+                        return false;
+                    }
+                }
+                return true;
+            }
+        } else {
+            return false;
+        }
     }
 
     /*
@@ -93,6 +92,7 @@ public class Word implements Comparable<Word> {
         return length;
     }
 
+    // eturn word
     public String getWord() {
         return word;
     }

@@ -3,7 +3,10 @@ package eh223im_assign3;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
@@ -48,7 +51,7 @@ class SortingAlgorithmsTest {
 
         //            @Override
         System.out.println(k1[0].doubleValue());
-        k1 = (BigInteger[]) SortingAlgorithms.insertionSort(k1, (o1, o2) -> (new BigInteger(o1.toString()).compareTo(new BigInteger(o2.toString()))));
+//        k1 = (BigInteger[]) SortingAlgorithms.insertionSort(k1, (o1, o2) -> (new BigInteger(o1.toString()).compareTo(new BigInteger(o2.toString()))));
 
         BigInteger[] k2 = new BigInteger[albi.size()];
         for (int i = 0; i < albi.size(); i++) {

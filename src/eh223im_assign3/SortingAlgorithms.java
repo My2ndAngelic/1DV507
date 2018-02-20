@@ -23,21 +23,17 @@ public class SortingAlgorithms {
         return arr;
     }
 
-    public int[] mergesort (int[] arr) {
-        return arr;
-    }
-
     // The
     public int[] mergeSort(int[] in) {
         int[] temp = Arrays.copyOf(in, in.length);
 
-        int i, j, k, l;
+        int j, k, l, m;
         int fi, en, no;
 
         fi = 0;
         en = in.length - 1;
 
-        for (i = 0; i<in.length; i*=2) {
+        for (int i = 0; i < in.length; i *= 2) {
 
         }
 

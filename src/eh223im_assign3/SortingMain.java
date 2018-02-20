@@ -16,10 +16,10 @@ public class SortingMain {
             arr[i] = new Random().nextInt(10)+1;
         }
 
-        int[] k = new SortingAlgorithms().mergesort(arr);
+//        int[] k = new SortingAlgorithms().mergesort(arr);
 
         System.out.println("Original: \n"+ Arrays.toString(arr));
-        System.out.println("Sorted: \n"+Arrays.toString(k));
+//        System.out.println("Sorted: \n"+Arrays.toString(k));
 
 ////        Insertion String sort
 //        String[] arr2 = new String[100];

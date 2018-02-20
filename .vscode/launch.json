@@ -1,0 +1,235 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountrySort<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.CountrySort",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FunctionPointers<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.FunctionPointers",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Histogram<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.Histogram",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PascalMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.PascalMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PrintJavaMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.PrintJavaMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ScatterPlot<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.ScatterPlot",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SinMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.SinMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SumMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.SumMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WarAndPeace<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.WarAndPeace",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Test<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign1.da1031.Test",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompoundInterest<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign2.CompoundInterest",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaFXExample<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign2.JavaFXExample",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Snowman<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign2.Snowman",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Yahtzee<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign2.Yahtzee",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EuclideanMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.EuclideanMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MergeTest<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.MergeTest",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortingMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.SortingMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IdentifyWordsMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.count_words.IdentifyWordsMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordCount1Main<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.count_words.WordCount1Main",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordMain<1DV507>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "eh223im_assign3.count_words.WordMain",
+            "projectName": "1DV507",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}
