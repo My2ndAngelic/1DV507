@@ -4,33 +4,12 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Push">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Freyja.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Freyr.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Loki.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Lóðurr.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/NorseGod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Odin.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Rotate.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Thor.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Vafþrúðnir.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/Víðarr.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/StrinTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/TWSTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java" />
+    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LQTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign4/Queue.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/1DV507.iml" afterPath="$PROJECT_DIR$/1DV507.iml" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/HelloWorld.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/MergeTest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithmsTest.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithmsTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/SortingMain.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/SortingMain.java" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/HashWordSet.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/HashWordSet.java" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/TreeWordSet.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/TreeWordSet.java" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,60 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SortingMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/SortingMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TinyPainter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/WordMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCount2Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Yahtzee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Yahtzee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NorseGods.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,18 +60,90 @@
       <file leaf-file-name="TWSTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/TWSTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
+            <state relative-caret-position="60">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Word.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java">
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="94">
+              <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#879#880#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#1166#1167#0" expanded="true" />
+                <element signature="e#1193#1194#0" expanded="true" />
+                <element signature="e#5461#5462#0" expanded="true" />
+                <element signature="e#5506#5507#0" expanded="true" />
+                <element signature="e#5893#5894#0" expanded="true" />
+                <element signature="e#5936#5937#0" expanded="true" />
+                <element signature="e#5968#5969#0" expanded="true" />
+                <element signature="e#6049#6050#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringTime.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LQTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LQTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-834">
+              <caret line="118" column="26" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="118" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -165,11 +162,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>lq.size</find>
-      <find>LinkedQueue</find>
-      <find>isEm</find>
-      <find>int</find>
-      <find>long</find>
       <find>99</find>
       <find>77</find>
       <find>49</find>
@@ -179,7 +171,6 @@
       <find>”</find>
       <find>programmable</find>
       <find>treeword</find>
-      <find>equal</find>
       <find>rehash</find>
       <find>the</find>
       <find>re</find>
@@ -195,6 +186,12 @@
       <find>rect</find>
       <find>rectangle</find>
       <find>//</find>
+      <find>eh223im_assign2.LinkedQueue.</find>
+      <find>enqueu</find>
+      <find>Object</find>
+      <find>equal</find>
+      <find>checkIndex</find>
+      <find>get</find>
     </findStrings>
     <replaceStrings>
       <replace>Vehicle</replace>
@@ -204,6 +201,7 @@
       <replace>iny</replace>
       <replace>int</replace>
       <replace>&quot;</replace>
+      <replace>T</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
@@ -234,10 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Vehicle.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Car.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Bicycle.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Lorry.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Bus.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign1/transport/Ferry.java" />
@@ -274,7 +268,6 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign3/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/HashWordSet.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/StrinTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/TWSTest2.java" />
@@ -285,6 +278,11 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/Queue.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/LQTest.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java" />
       </list>
     </option>
   </component>
@@ -323,35 +321,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="eh223im_assign2" type="cbb8eebc:String" user="eh223im_assign2" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="eh223im_assign3" type="cbb8eebc:String" user="eh223im_assign3" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -380,7 +351,41 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="eh223im_assign2" type="cbb8eebc:String" user="eh223im_assign2" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
+              <item name="time" type="cbb8eebc:String" user="time" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -443,7 +448,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TinyPainter">
+  <component name="RunManager" selected="Application.StringTime">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -489,14 +494,14 @@
       <module name="1DV507" />
       <envs />
     </configuration>
-    <configuration name="TWSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="StringTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="eh223im_assign3.count_words.*" />
+          <option name="PATTERN" value="eh223im_assign4.time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign3.count_words.TWSTest" />
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.StringTime" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -508,14 +513,14 @@
       <module name="1DV507" />
       <envs />
     </configuration>
-    <configuration name="TWSTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TWSTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="eh223im_assign3.*" />
+          <option name="PATTERN" value="eh223im_assign3.count_words.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign3.TWSTest2" />
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign3.count_words.TWSTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -623,17 +628,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.NorseGods" />
       <item index="1" class="java.lang.String" itemvalue="Application.TWSTest" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TWSTest2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.StrinTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.TinyPainter" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StrinTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TinyPainter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringTime" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.TinyPainter" />
-        <item index="1" class="java.lang.String" itemvalue="Application.NorseGods" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TWSTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StrinTest" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TWSTest2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StringTime" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TinyPainter" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NorseGods" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TWSTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StrinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -696,8 +701,18 @@
       <workItem from="1519817806879" duration="21029000" />
       <workItem from="1519949950673" duration="39680000" />
       <workItem from="1520091443175" duration="3413000" />
-      <workItem from="1520178937147" duration="2284000" />
+      <workItem from="1520178937147" duration="3097000" />
+      <workItem from="1520254336040" duration="536000" />
+      <workItem from="1520340369361" duration="4370000" />
     </task>
+    <task id="LOCAL-00001" summary="Test">
+      <created>1520202494249</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1520202494249</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -733,7 +748,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="387423000" />
+    <option name="totallyTimeSpent" value="393142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -746,21 +761,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714286" sideWeight="0.35546875" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35285714" sideWeight="0.3515625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35285714" sideWeight="0.359375" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35285714" sideWeight="0.6484375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.490625" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35285714" sideWeight="0.640625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15859374" sideWeight="0.556044" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15859374" sideWeight="0.556044" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.490625" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -772,9 +790,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32714286" sideWeight="0.36015624" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.496875" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,8 +800,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -798,55 +819,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home!/javafx.controls/javafx/scene/control/skin/TabPaneSkin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.controls/com/sun/javafx/scene/control/CustomColorDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="242" column="16" lean-forward="false" selection-start-line="242" selection-start-column="16" selection-end-line="242" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/chart/Axis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="640" column="29" lean-forward="false" selection-start-line="640" selection-start-column="29" selection-end-line="640" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="1251" column="19" lean-forward="false" selection-start-line="1251" selection-start-column="19" selection-end-line="1251" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home!/javafx.deploy/com/sun/deploy/uitoolkit/impl/fx/ui/ErrorPane.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.graphics/javafx/scene/layout/BorderPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="343" column="22" lean-forward="false" selection-start-line="343" selection-start-column="22" selection-end-line="343" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign1/CountrySort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-768">
@@ -946,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,13 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1031,22 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Yahtzee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/javafx.base/javafx/event/EventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1065,16 +1013,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="2418" column="16" lean-forward="false" selection-start-line="2418" selection-start-column="16" selection-end-line="2418" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeSort.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/Hello.js" />
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
+        <state relative-caret-position="450">
           <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1089,34 +1047,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="465">
           <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Yahtzee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1125,14 +1075,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/Hello.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1147,7 +1089,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/TWSTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
+        <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
@@ -1155,9 +1097,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-182">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/CircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-834">
+          <caret line="118" column="26" lean-forward="true" selection-start-line="115" selection-start-column="7" selection-end-line="118" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LQTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="222" column="0" lean-forward="true" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#1166#1167#0" expanded="true" />
+            <element signature="e#1193#1194#0" expanded="true" />
+            <element signature="e#5461#5462#0" expanded="true" />
+            <element signature="e#5506#5507#0" expanded="true" />
+            <element signature="e#5893#5894#0" expanded="true" />
+            <element signature="e#5936#5937#0" expanded="true" />
+            <element signature="e#5968#5969#0" expanded="true" />
+            <element signature="e#6049#6050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1218,6 +1246,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
