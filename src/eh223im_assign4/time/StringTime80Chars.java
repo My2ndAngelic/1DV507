@@ -26,7 +26,7 @@ public class StringTime80Chars {
                 }
                 timeAfter = System.currentTimeMillis();
                 k++;
-            } while (timeAfter - timeBefore < 1);
+            } while (timeAfter - timeBefore < 1000);
 
 
             System.out.println("String: " + k + " times.");
@@ -53,7 +53,7 @@ public class StringTime80Chars {
                 s.toString();
                 timeAfter = System.currentTimeMillis();
                 k++;
-            } while (timeAfter - timeBefore < 1);
+            } while (timeAfter - timeBefore < 1000);
 
             System.out.println("StringBuilder: " + k + " times.");
         }
