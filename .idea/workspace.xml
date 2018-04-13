@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime80Chars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeExp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1DV507.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1DV507.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/NorseGods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/Rotate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithmsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithmsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/HashWordSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/HashWordSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/StrinTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/StrinTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/TreeWordSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/TreeWordSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +39,8 @@
       <file leaf-file-name="StringTime1Char.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state relative-caret-position="247">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -324,7 +299,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,6 +356,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -652,7 +627,7 @@
       <workItem from="1522589977645" duration="31000" />
       <workItem from="1523018792948" duration="227000" />
       <workItem from="1523279946943" duration="4741000" />
-      <workItem from="1523615793985" duration="212000" />
+      <workItem from="1523615793985" duration="1599000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -697,7 +672,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413288000" />
+    <option name="totallyTimeSpent" value="414887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,15 +689,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.334375" weight="0.32714286" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3328125" weight="0.32714286" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3859375" side_tool="true" visible="true" weight="0.35285714" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.38671875" side_tool="true" visible="true" weight="0.35285714" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490625" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6140625" visible="true" weight="0.35285714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.61328125" visible="true" weight="0.35285714" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -1051,8 +1026,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="247">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
         </state>
       </provider>
     </entry>
