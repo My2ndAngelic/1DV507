@@ -18,6 +18,19 @@ public class HashWordSet implements WordSet {
         hs = null;
     }
 
+    private class WordNode { // Private inner Node class
+        Word value;
+        WordNode next;
+
+        public WordNode(Word word) {
+            value = word;
+        }
+
+        public Word getValue() {
+            return value;
+        }
+    }
+
     // Add words
     @Override
     public void add(Word w) {
@@ -97,14 +110,14 @@ public class HashWordSet implements WordSet {
             sb.append(iterator().next().toString()).append(", ");
         }
 
-        sb.replace(sb.length() - 2, sb.length() - 1, "]");
+        sb.replace(sb.length() - 2,sb.length() - 1,"]");
         return sb.toString();
     }
 
     // Rehash
     private void rehash() {
         WordNode[] temp = bucket;
-        bucket = new WordNode[bucket.length * 2];
+        bucket = new WordNode[bucket.length*2];
         size = 0;
 
         for (WordNode wn : temp) {
@@ -128,28 +141,15 @@ public class HashWordSet implements WordSet {
         return new HashWordSetIterator(bucket, size);
     }
 
-    private class WordNode { // Private inner Node class
-        Word value;
-        WordNode next;
-
-        public WordNode(Word word) {
-            value = word;
-        }
-
-        public Word getValue() {
-            return value;
-        }
-    }
-
     class HashWordSetIterator implements Iterator<Word> {
 
-        private final int size;
         // First node is root
         private Word[] currArr;
         private int currPos = -1;
+        private final int size;
 
         // The traversal starts with the root node.
-        HashWordSetIterator(WordNode[] WArr, int size) {
+        HashWordSetIterator(WordNode[] WArr,int size) {
             currArr = new Word[size];
             int k = 0;
             // Array cloning

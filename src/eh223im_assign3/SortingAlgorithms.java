@@ -33,7 +33,7 @@ public class SortingAlgorithms {
         fi = 0;
         en = in.length - 1;
 
-        for (int i = 0; i < in.length; i *= 2) {
+        for (int i = 0; i<in.length; i*=2) {
 
         }
 

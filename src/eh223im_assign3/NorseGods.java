@@ -40,16 +40,16 @@ public class NorseGods extends Application {
 
         TextFlow tf = new TextFlow();
 
-        ArrayList<NorseGod> norseGod = new ArrayList<>();
+        ArrayList <NorseGod> norseGod = new ArrayList<>();
 
-        norseGod.add(new NorseGod("Loki", "Æsir", readFile("Loki.txt")));
-        norseGod.add(new NorseGod("Freyja", "Vanir", readFile("Freyja.txt")));
-        norseGod.add(new NorseGod("Thor", "Æsir", readFile("Thor.txt")));
-        norseGod.add(new NorseGod("Odin", "Æsir", readFile("Odin.txt")));
-        norseGod.add(new NorseGod("Lóðurr", "Æsir", readFile("Lóðurr.txt")));
-        norseGod.add(new NorseGod("Víðarr", "Æsir", readFile("Víðarr.txt")));
-        norseGod.add(new NorseGod("Vafþrúðnir", "Jötnar", readFile("Vafþrúðnir.txt")));
-        norseGod.add(new NorseGod("Freyr", "Vanir", readFile("Freyr.txt")));
+        norseGod.add(new NorseGod("Loki","Æsir",readFile("Loki.txt")));
+        norseGod.add(new NorseGod("Freyja","Vanir",readFile("Freyja.txt")));
+        norseGod.add(new NorseGod("Thor","Æsir",readFile("Thor.txt")));
+        norseGod.add(new NorseGod("Odin","Æsir",readFile("Odin.txt")));
+        norseGod.add(new NorseGod("Lóðurr","Æsir",readFile("Lóðurr.txt")));
+        norseGod.add(new NorseGod("Víðarr","Æsir",readFile("Víðarr.txt")));
+        norseGod.add(new NorseGod("Vafþrúðnir","Jötnar",readFile("Vafþrúðnir.txt")));
+        norseGod.add(new NorseGod("Freyr","Vanir",readFile("Freyr.txt")));
 
 
         ObservableList<NorseGod> ol = FXCollections.observableArrayList(norseGod);
@@ -60,7 +60,7 @@ public class NorseGods extends Application {
         Text race = new Text();
         Text desc = new Text();
 
-        tf.getChildren().addAll(name, race, desc);
+        tf.getChildren().addAll(name,race,desc);
 
         lv.setOnMouseClicked(new EventHandler<MouseEvent>() {
             @Override
@@ -68,16 +68,16 @@ public class NorseGods extends Application {
                 name.setText(lv.getSelectionModel().getSelectedItem().getName());
                 name.setFont(new Font(20));
 
-                race.setText("\n" + lv.getSelectionModel().getSelectedItem().getRace());
+                race.setText("\n"+lv.getSelectionModel().getSelectedItem().getRace());
                 race.setFont(new Font(15));
 
-                desc.setText("\n" + "\n" + lv.getSelectionModel().getSelectedItem().getDesc());
+                desc.setText("\n"+"\n"+lv.getSelectionModel().getSelectedItem().getDesc());
                 desc.setFont(new Font(15));
 
             }
         });
 
-        tf.setPrefSize(480, 500);
+        tf.setPrefSize(480,500);
 
         ScrollPane sp = new ScrollPane();
         sp.setVbarPolicy(ScrollPane.ScrollBarPolicy.ALWAYS);
@@ -87,9 +87,9 @@ public class NorseGods extends Application {
         sp.fitToWidthProperty();
         pane.setRight(sp);
 
-        pane.setPadding(new Insets(10, 20, 20, 20));
+        pane.setPadding(new Insets(10,20,20,20));
 
-        Scene scene = new Scene(pane, 800, 600);
+        Scene scene = new Scene(pane,800,600);
         primaryStage.setScene(scene);
         primaryStage.show();
     }
@@ -106,6 +106,6 @@ public class NorseGods extends Application {
         } catch (FileNotFoundException ignored) {
 
         }
-        throw new RuntimeException("Cannot read file " + dir);
+        throw new RuntimeException("Cannot read file "+ dir);
     }
 }

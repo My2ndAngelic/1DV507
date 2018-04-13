@@ -4,8 +4,6 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-import static java.util.Objects.checkIndex;
-
 /**
  * Adopted from example on the class
  */

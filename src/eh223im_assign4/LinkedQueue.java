@@ -6,16 +6,18 @@ import java.util.NoSuchElementException;
 
 public class LinkedQueue<T> implements Queue<T> {
     private T t;
+
     private int size; // Current size
     private Node head; // First node/element
+    private Node tail;
 
     /**
      * Linked Queue constructor
      */
-    LinkedQueue() {
-
+    public LinkedQueue() {
         size = 0;
         head = null;
+        tail = null;
     }
 
     /**
@@ -63,15 +65,13 @@ public class LinkedQueue<T> implements Queue<T> {
      */
     @Override
     public void enqueue(T element) {
-        if (head == null) {// Add first element
+        if (isEmpty()) {// Add first element
             head = new Node(element);
             size++;
+            tail = head;
         } else {
-            Node node = head;
-            while (node.next != null) { // Find last node
-                node = node.next;
-            }
-            node.next = new Node(element); // Attach new node
+            tail.next = new Node(element);
+            tail = tail.next;
             size++;
         }
     }
@@ -148,9 +148,10 @@ public class LinkedQueue<T> implements Queue<T> {
         while (node != null) {
             if (node.getValue().equals(n)) {
                 return index;
+            } else {
+                index++;
+                node = node.next;
             }
-            index++;
-            node = node.next;
         }
         throw new NoSuchElementException("Object not found");
     }
@@ -163,11 +164,10 @@ public class LinkedQueue<T> implements Queue<T> {
      */
     @Override
     public T first() {
-        Node node = head;
-        if (size == 0) {
+        if (isEmpty()) {
             throw new NoSuchElementException("Empty list");
         } else {
-            return node.getValue();
+            return head.value;
         }
     }
 
@@ -182,11 +182,7 @@ public class LinkedQueue<T> implements Queue<T> {
         if (isEmpty()) {
             throw new NoSuchElementException("Empty list");
         } else {
-            Node node = head;
-            for (int i = 0; i < size - 1; i++) {
-                node = node.next;
-            }
-            return node.getValue();
+            return tail.value;
         }
     }
 
@@ -209,21 +205,18 @@ public class LinkedQueue<T> implements Queue<T> {
      */
     @Override
     public Iterator<T> iterator() {
-        return new QueueIterator<T>();
+        return new QueueIterator<>();
     }
 
     private class Node { // Private inner Node class
         Node next = null;
         private T value;
-
         Node(T t) {
             setValue(t);
         }
-
         public T getValue() {
             return value;
         }
-
         public void setValue(T value) {
             this.value = value;
         }
@@ -231,15 +224,17 @@ public class LinkedQueue<T> implements Queue<T> {
 
     class QueueIterator<T> implements Iterator<T> { // Inner iterator class
         private Node node = head; // First node is head
-
         public QueueIterator() {
 
         }
-
         public T next() {
-            T val = (T) node.value; // Read current value
-            node = node.next; // Move one step ahead
-            return val;
+            if (hasNext()) {
+                T val = (T) node.value; // Read current value
+                node = node.next; // Move one step ahead
+                return val;
+            } else {
+                return null;
+            }
         }
 
         public boolean hasNext() {

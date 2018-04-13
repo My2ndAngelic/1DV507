@@ -39,7 +39,7 @@ public class Word implements Comparable<Word> {
         int hV = 0;
         char[] c = word.toCharArray();
         for (int i = 0; i < c.length; i++) {
-            hV += 37 * (Character.getNumericValue(c[i])) * (i + 1) + (i + 1);
+            hV += 37 * (Character.getNumericValue(c[i]))*(i+1) + (i+1);
         }
         return hV;
 //        return word.toUpperCase().hashCode();

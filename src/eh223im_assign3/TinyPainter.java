@@ -27,11 +27,11 @@ public class TinyPainter extends Application {
 
 
         StackPane sp = new StackPane();
-        Scene scene = new Scene(sp, 800, 600);
+        Scene scene = new Scene(sp,800,600);
 
 
-        Canvas c1 = new Canvas(800, 600);
-        Canvas c2 = new Canvas(800, 600);
+        Canvas c1 = new Canvas(800,600);
+        Canvas c2 = new Canvas(800,600);
 
         ColorPicker cp = new ColorPicker();
         ColorPicker cp2 = new ColorPicker();
@@ -46,7 +46,7 @@ public class TinyPainter extends Application {
         cp2.setValue(Color.YELLOW);
 
         ComboBox cb = new ComboBox();
-        cb.getItems().addAll("Pencil", "Line", "Rectangle", "Circle", "Eraser", "Eraser (Rectangle)");
+        cb.getItems().addAll("Pencil","Line","Rectangle","Circle", "Eraser","Eraser (Rectangle)");
 
 
         Slider slider = new Slider();
@@ -98,7 +98,7 @@ public class TinyPainter extends Application {
                     gc.setFill(cp2.getValue());
                     gc.setLineWidth(slider.getValue());
                     gc.beginPath();
-                    gc.lineTo(f.getSceneX(), f.getSceneY());
+                    gc.lineTo(f.getSceneX(),f.getSceneY());
                     gc.stroke();
                 });
 
@@ -106,11 +106,11 @@ public class TinyPainter extends Application {
                     gc.setStroke(cp.getValue());
                     gc.setFill(cp2.getValue());
                     gc.setLineWidth(slider.getValue());
-                    gc.lineTo(f.getSceneX(), f.getSceneY());
+                    gc.lineTo(f.getSceneX(),f.getSceneY());
                     gc.stroke();
                 });
 
-            } else if (cb.getValue().equals("Circle")) {
+            } else if (cb.getValue().equals("Circle")){
 
                 slider2.setVisible(true);
                 cp2.setVisible(true);
@@ -139,17 +139,17 @@ public class TinyPainter extends Application {
                     y[1] = f.getSceneY();
                     x[2] = (x[0] - x[1]) * (x[0] - x[1]);
                     y[2] = (y[0] - y[1]) * (y[0] - y[1]);
-                    final double k = Math.sqrt(x[2] + y[2]);
+                    final double k = Math.sqrt(x[2]+y[2]);
 
-                    gc.strokeOval(Math.abs(x[0] - k), Math.abs(y[0] - k), k * 2, k * 2);
+                    gc.strokeOval(Math.abs(x[0]-k),Math.abs(y[0]-k),k*2,k*2);
 
                     if (slider2.getValue() == 0) {
-                        gc.strokeOval(Math.abs(x[0] - k), Math.abs(y[0] - k), k * 2, k * 2);
+                        gc.strokeOval(Math.abs(x[0]-k),Math.abs(y[0]-k),k*2,k*2);
                     } else if (slider2.getValue() == 2) {
-                        gc.fillOval(Math.abs(x[0] - k), Math.abs(y[0] - k), k * 2, k * 2);
+                        gc.fillOval(Math.abs(x[0]-k),Math.abs(y[0]-k),k*2,k*2);
                     } else {
-                        gc.strokeOval(Math.abs(x[0] - k), Math.abs(y[0] - k), k * 2, k * 2);
-                        gc.fillOval(Math.abs(x[0] - k), Math.abs(y[0] - k), k * 2, k * 2);
+                        gc.strokeOval(Math.abs(x[0]-k),Math.abs(y[0]-k),k*2,k*2);
+                        gc.fillOval(Math.abs(x[0]-k),Math.abs(y[0]-k),k*2,k*2);
                     }
                 });
 
@@ -171,9 +171,9 @@ public class TinyPainter extends Application {
                 mousePressForShape(scene, cp, cp2, gc, slider, x, y);
 
                 scene.setOnMouseReleased(f -> {
-                    gc.strokeLine(x[0], y[0], f.getSceneX(), f.getSceneY());
-                    x[0] = 0;
-                    y[0] = 0;
+                   gc.strokeLine(x[0], y[0],f.getSceneX(),f.getSceneY());
+                   x[0] = 0;
+                   y[0] = 0;
                 });
             } else if (cb.getValue().equals("Rectangle")) {
                 slider2.setVisible(true);
@@ -208,12 +208,12 @@ public class TinyPainter extends Application {
                     }
 
                     if (slider2.getValue() == 0) {
-                        gc.strokeRect(x[0], y[0], x[1] - x[0], y[1] - y[0]);
-                    } else if (slider2.getValue() == 2) {
-                        gc.fillRect(x[0], y[0], x[1] - x[0], y[1] - y[0]);
+                        gc.strokeRect(x[0],y[0],x[1]-x[0],y[1]-y[0]);
+                    } else if (slider2.getValue() == 2){
+                        gc.fillRect(x[0],y[0],x[1]-x[0],y[1]-y[0]);
                     } else {
-                        gc.strokeRect(x[0], y[0], x[1] - x[0], y[1] - y[0]);
-                        gc.fillRect(x[0], y[0], x[1] - x[0], y[1] - y[0]);
+                        gc.strokeRect(x[0],y[0],x[1]-x[0],y[1]-y[0]);
+                        gc.fillRect(x[0],y[0],x[1]-x[0],y[1]-y[0]);
                     }
                 });
             } else if (cb.getValue().equals("Eraser")) {
@@ -243,7 +243,7 @@ public class TinyPainter extends Application {
                     gc.setFill(Color.WHITE);
                     gc.setLineWidth(slider.getValue());
                     gc.beginPath();
-                    gc.lineTo(f.getSceneX(), f.getSceneY());
+                    gc.lineTo(f.getSceneX(),f.getSceneY());
                     gc.stroke();
                     f.consume();
                 });
@@ -252,7 +252,7 @@ public class TinyPainter extends Application {
                     gc.setStroke(Color.WHITE);
                     gc.setFill(Color.WHITE);
                     gc.setLineWidth(slider.getValue());
-                    gc.lineTo(f.getSceneX(), f.getSceneY());
+                    gc.lineTo(f.getSceneX(),f.getSceneY());
                     gc.stroke();
                     f.consume();
                 });
@@ -293,13 +293,13 @@ public class TinyPainter extends Application {
                         y[0] = y[1];
                         y[1] = y[2];
                     }
-                    gc.clearRect(x[0], y[0], x[1] - x[0], y[1] - y[0]);
+                    gc.clearRect(x[0],y[0],x[1]-x[0],y[1]-y[0]);
                 });
             }
         });
 
         GridPane gp = new GridPane();
-        gp.setPadding(new Insets(20, 20, 5, 20));
+        gp.setPadding(new Insets(20,20,5,20));
         gp.setHgap(20);
         gp.setGridLinesVisible(false);
 
@@ -309,14 +309,14 @@ public class TinyPainter extends Application {
         cp.setTooltip(new Tooltip("Stroke color"));
         cp2.setTooltip(new Tooltip("Fill color"));
 
-        gp.add(cb, 0, 0);
-        gp.add(cp, 2, 0);
-        gp.add(slider, 1, 0);
-        gp.add(cp2, 3, 0);
-        gp.add(slider2, 4, 0);
+        gp.add(cb,0,0);
+        gp.add(cp,2,0);
+        gp.add(slider,1,0);
+        gp.add(cp2,3,0);
+        gp.add(slider2,4,0);
 
         // Main stage
-        sp.getChildren().addAll(c1, c2, gp);
+        sp.getChildren().addAll(c1,c2,gp);
         sp.setStyle("-fx-background-color: white");
 
         primaryStage.setScene(scene);
@@ -339,7 +339,7 @@ public class TinyPainter extends Application {
             public String toString(Double object) {
                 if (object == 0) {
                     return "Stroke";
-                } else if (object == 1) {
+                } else if (object == 1){
                     return "Stroke and Fill";
                 } else return "Fill";
             }

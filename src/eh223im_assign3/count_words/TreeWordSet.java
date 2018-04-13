@@ -9,40 +9,6 @@ public class TreeWordSet implements WordSet {
     private WordNode root;
 
     private ArrayList<Word> wordArrayList = new ArrayList<>();
-    public TreeWordSet() {
-        length = 0;
-        root = null;
-    }
-
-    public void add(Word word) {
-        if (root == null) {
-            root = new WordNode(word);
-            length++;
-        } else {
-            root.add(word);
-        }
-    }
-
-    //    @Override
-    public String print() {
-        return root.print();
-    }
-
-    @Override
-    public boolean contains(Word word) {
-        return root != null && root.contains(word);
-    }
-
-    @Override
-    public Iterator iterator() {
-        return new TreeWordSetIterator(wordArrayList, size());
-    }
-
-    @Override
-    public int size() {
-        return length;
-    }
-
     private class WordNode { // Private inner Node class
 
         Word value;
@@ -50,9 +16,6 @@ public class TreeWordSet implements WordSet {
         WordNode left;
         WordNode right;
         WordNode parent;
-        String outstring = "";
-        StringBuilder sb = new StringBuilder();
-        String[] outstrarr = new String[length];
 
         WordNode(Word word) {
             value = word;
@@ -87,6 +50,10 @@ public class TreeWordSet implements WordSet {
             return true;
         }
 
+        String outstring = "";
+        StringBuilder sb = new StringBuilder();
+        String[] outstrarr = new String[length];
+
         private void printS() {
             if (left != null) {
                 left.printS();
@@ -103,26 +70,61 @@ public class TreeWordSet implements WordSet {
         }
     }
 
+    public TreeWordSet() {
+        length = 0;
+        root = null;
+    }
+
+    public void add(Word word) {
+        if (root == null) {
+            root = new WordNode(word);
+            length++;
+        } else {
+            root.add(word);
+        }
+    }
+
+//    @Override
+    public String print() {
+        return root.print();
+    }
+
+    @Override
+    public boolean contains(Word word) {
+        return root != null && root.contains(word);
+    }
+
+    @Override
+    public int size() {
+        return length;
+    }
+
+    @Override
+    public Iterator iterator() {
+        return new TreeWordSetIterator(wordArrayList,size());
+    }
+
+
     // Adopted from: https://stackoverflow.com/questions/33788654/inorder-iterator-for-binary-tree-java
     public class TreeWordSetIterator implements Iterator<Word> {
 
-        private final int size;
-        private Word[] nodeArr = new Word[wordArrayList.size()];
-        private Word wordNode;
-        private int current;
-
-        TreeWordSetIterator(ArrayList<Word> wordArrayList, int size) {
+        TreeWordSetIterator(ArrayList<Word> wordArrayList,int size) {
             for (int i = 0; i < wordArrayList.size(); i++) {
                 nodeArr[i] = wordArrayList.get(i);
             }
             current = 0;
             this.size = size;
         }
+        private Word[] nodeArr = new Word[wordArrayList.size()];
+        private Word wordNode;
+        private int current;
+        private final int size;
+
 
         public Word next() {
             Word w;
             if (hasNext()) {
-                w = nodeArr[current];
+                w =  nodeArr[current];
                 current++;
                 return w;
             } else {

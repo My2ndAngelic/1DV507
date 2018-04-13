@@ -27,10 +27,10 @@ public class WordCount2Main {
 
             System.out.println("Result: ");
 
-            System.out.println("HashWordSet: " + hws.print());
-            System.out.println("Total: " + hws.size());
-            System.out.println("TreeWordSet: " + tws.print());
-            System.out.println("Total: " + hws.size());
+            System.out.println("HashWordSet: "+ hws.print());
+            System.out.println("Total: "+hws.size());
+            System.out.println("TreeWordSet: "+ tws.print());
+            System.out.println("Total: "+hws.size());
 
 
         } catch (FileNotFoundException e) {
