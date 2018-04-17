@@ -9,7 +9,7 @@ public class StringConcat1Char {
         long timeBefore;
         long timeAfter;
 
-        for (int a = 0; a < 100; a++) {
+        for (int a = 0; a < 10; a++) {
             k = 0;
             // Appending 1 character string
             do {
@@ -20,8 +20,8 @@ public class StringConcat1Char {
                     s += test;
                 }
                 timeAfter = System.currentTimeMillis();
-                k++;
-                System.out.print("\r" + "String concatenation: " + k);
+                k+=100;
+                System.out.print("\r" + "String Concatenation: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
             } while (timeAfter - timeBefore < 1000);
 
             System.out.print("\n");

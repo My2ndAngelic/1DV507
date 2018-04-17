@@ -45,7 +45,7 @@ public class TinyPainter extends Application {
         cp.setValue(Color.BLUE);
         cp2.setValue(Color.YELLOW);
 
-        ComboBox cb = new ComboBox();
+        ComboBox<String> cb = new ComboBox<String>();
         cb.getItems().addAll("Pencil","Line","Rectangle","Circle", "Eraser","Eraser (Rectangle)");
 
 
@@ -334,12 +334,12 @@ public class TinyPainter extends Application {
     }
 
     private void setSlider(Slider slider) {
-        slider.setLabelFormatter(new StringConverter<>() {
+        slider.setLabelFormatter(new StringConverter<Double>() {
             @Override
             public String toString(Double object) {
                 if (object == 0) {
                     return "Stroke";
-                } else if (object == 1){
+                } else if (object == 1) {
                     return "Stroke and Fill";
                 } else return "Fill";
             }

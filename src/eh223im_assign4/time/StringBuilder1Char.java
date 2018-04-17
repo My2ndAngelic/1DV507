@@ -7,23 +7,24 @@ public class StringBuilder1Char {
         int k;
         long timeBefore;
         long timeAfter;
-
-        for (int a = 0; a < 100; a++) {
+        double elapsed;
+        System.out.println("StringBuilder Test");
             k = 0;
             do {
                 StringBuilder s = new StringBuilder();
                 String test = String.valueOf((char) (Character.toUpperCase(new Random().nextInt(90 - 65 + 1) + 65)));
-                timeBefore = System.currentTimeMillis();
+                timeBefore = System.nanoTime();
                 for (int i = 0; i < k; i++) {
                     s.append(test);
                 }
                 s.toString();
-                timeAfter = System.currentTimeMillis();
-                System.out.print("\r" + "StringBuilder: " + k);
+                timeAfter = System.nanoTime();
+                elapsed = (double) (timeAfter - timeBefore)/1E9;
+                System.out.print("\r" + k + ";"+ elapsed);
                 k++;
-            } while (timeAfter - timeBefore < 1000);
+
+            } while (elapsed < 1);
 
             System.out.println(k);
-        }
     }
 }

@@ -8,7 +8,7 @@ public class StringBuilder80Char {
         long timeBefore;
         long timeAfter;
 
-        for (int a = 0; a < 100; a++) {
+        for (int a = 0; a < 10; a++) {
             k = 0;
             // Appending 1 character string
             do {
@@ -17,17 +17,18 @@ public class StringBuilder80Char {
                 for (int i = 0; i < 80; i++) {
                     test.append(String.valueOf((char) (Character.toUpperCase(new Random().nextInt(90 - 65 + 1) + 65))));
                 }
+                String s2 = test.toString();
                 System.gc();
                 timeBefore = System.currentTimeMillis();
 
                 for (int i = 0; i < k; i++) {
-                    s.append(test);
+                    s.append(s2);
                 }
                 s.toString();
 
                 timeAfter = System.currentTimeMillis();
-                k++;
-                System.out.print("\r" + "String concatenation: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
+                k+= 100;
+                System.out.print("\r" + "StringBuilder: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
 
             } while (timeAfter - timeBefore < 1000);
 
