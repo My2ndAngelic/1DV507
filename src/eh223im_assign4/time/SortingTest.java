@@ -4,18 +4,12 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class SortingTest {
-    public static void main(String[] args){
-        double time = 0;
-
-        int numbers = 1000000;
-
+    public static void MergeTest(int numbers, int max){
+        double time;
         int[] initArr = new int[numbers];
         for (int i = 0; i < numbers; i++) {
-            initArr[i] = new Random().nextInt(99999);
+            initArr[i] = new Random().nextInt(max);
         }
-
-        System.out.println(Arrays.toString(initArr));
-
         int[] sortingArr = Arrays.copyOf(initArr,initArr.length);
 
         System.gc();
@@ -24,7 +18,29 @@ public class SortingTest {
         long t2 = System.nanoTime();
 
         time = t2 - t1;
-        System.out.println(Arrays.toString(sortingArr));
-        System.out.println("Time: "+time/1000000000.0 + " seconds");
+        System.out.println("Merge Sort;"+numbers+";"+max+";"+time /1000000000.0);
+    }
+
+    public static void InsertionSort(int numbers, int max){
+        double time;
+        int[] initArr = new int[numbers];
+        for (int i = 0; i < numbers; i++) {
+            initArr[i] = new Random().nextInt(max);
+        }
+        int[] sortingArr = Arrays.copyOf(initArr,initArr.length);
+
+        System.gc();
+        long t1 = System.nanoTime();
+        sortingArr = LeSortingAlgorithms.InsertionSort(sortingArr);
+        long t2 = System.nanoTime();
+
+        time = t2 - t1;
+        System.out.println("Insertion Sort;"+numbers+";"+max+";"+ time /1000000000.0);
+    }
+
+    public static void main(String[] args) {
+        for (int i = 0; i< 10000; i++) {
+            MergeTest(i, 100000);
+        }
     }
 }

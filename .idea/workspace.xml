@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1DV507.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1DV507.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder1Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder1Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +28,17 @@
       <file leaf-file-name="StringConcat1Char.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
+            <state relative-caret-position="210">
               <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TinyPainter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TinyPainter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2713">
-              <caret line="357" column="11" lean-forward="true" selection-start-line="357" selection-start-column="11" selection-end-line="357" selection-end-column="11" />
-              <folding>
-                <element signature="e#1276#1284#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="409">
+              <caret line="354" column="34" lean-forward="true" selection-start-line="354" selection-start-column="34" selection-end-line="354" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -52,7 +46,7 @@
       <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-775">
+            <state relative-caret-position="180">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
             </state>
           </provider>
@@ -97,26 +91,17 @@
       <file leaf-file-name="LeSortingAlgorithms.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-28">
               <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeSortTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="26" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortingTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SortingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+            <state relative-caret-position="225">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -249,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingAlgorithmsTime.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder1Char.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime80Chars.java" />
@@ -257,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" />
       </list>
     </option>
   </component>
@@ -285,52 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="eh223im_assign3" type="cbb8eebc:String" user="eh223im_assign3" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
-              <item name="time" type="cbb8eebc:String" user="time" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1DV507" type="58d84e3e:PackageViewProjectNode" />
-              <item name="1DV507" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,6 +299,46 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1DV507" type="58d84e3e:PackageViewProjectNode" />
+              <item name="1DV507" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="1DV507" type="cbb8eebc:String" user="1DV507" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="eh223im_assign4" type="cbb8eebc:String" user="eh223im_assign4" />
+              <item name="time" type="cbb8eebc:String" user="time" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,12 +394,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TinyPainter">
+  <component name="RunManager" selected="Application.SortingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="StringBuilder1Char" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.StringBuilder1Char" />
+    <configuration name="SortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.SortingTest" />
       <module name="1DV507" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -530,18 +509,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.StringConcat1Char" />
-      <item itemvalue="Application.StringBuilder1Char" />
       <item itemvalue="Application.StringConcat80Char" />
       <item itemvalue="Application.StringBuilder80Char" />
       <item itemvalue="Application.TinyPainter" />
+      <item itemvalue="Application.SortingTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingTest" />
         <item itemvalue="Application.TinyPainter" />
         <item itemvalue="Application.StringConcat1Char" />
         <item itemvalue="Application.StringBuilder80Char" />
         <item itemvalue="Application.StringConcat80Char" />
-        <item itemvalue="Application.StringBuilder1Char" />
       </list>
     </recent_temporary>
   </component>
@@ -621,7 +600,8 @@
       <workItem from="1523615793985" duration="4985000" />
       <workItem from="1523714241883" duration="578000" />
       <workItem from="1523876839928" duration="697000" />
-      <workItem from="1523978370315" duration="1092000" />
+      <workItem from="1523978370315" duration="1375000" />
+      <workItem from="1524134710747" duration="822000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -666,7 +646,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420640000" />
+    <option name="totallyTimeSpent" value="421745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,7 +659,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
@@ -687,29 +666,29 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.38828126" side_tool="true" visible="true" weight="0.35285714" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.3890625" side_tool="true" visible="true" weight="0.35285714" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490625" weight="0.32857144" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6117188" visible="true" weight="0.35285714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6109375" visible="true" weight="0.35285714" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.556044" visible="true" weight="0.15859374" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4859375" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.44395605" side_tool="true" weight="0.2907916" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3298969" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3298969" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4859375" weight="0.32857144" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -936,14 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,30 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="60" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,24 +955,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="210">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-775">
+        <state relative-caret-position="180">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2713">
-          <caret line="357" column="11" lean-forward="true" selection-start-line="357" selection-start-column="11" selection-end-line="357" selection-end-column="11" />
+        <state relative-caret-position="409">
+          <caret line="354" column="34" lean-forward="true" selection-start-line="354" selection-start-column="34" selection-end-line="354" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-29">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="26" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
           <folding>
-            <element signature="e#1276#1284#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
