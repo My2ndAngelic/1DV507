@@ -7,32 +7,26 @@ public class StringConcat80Char {
         int k;
         long timeBefore;
         long timeAfter;
+        double elapsed;
 
-        for (int a = 0; a < 100; a++) {
-            k = 0;
-            // Appending 1 character string
-            do {
+        k = 0;
+        System.out.println("StringConcat80 Test");
+        do {
                 String s = "";
                 String test = "";
                 for (int i = 0; i < 80; i++) {
                     test += String.valueOf((char) (Character.toUpperCase(new Random().nextInt(90 - 65 + 1) + 65)));
                 }
                 System.gc();
-                timeBefore = System.currentTimeMillis();
-
+                timeBefore = System.nanoTime();
                 for (int i = 0; i < k; i++) {
                     s += test;
                 }
-                s.toString();
-
-                timeAfter = System.currentTimeMillis();
+                timeAfter = System.nanoTime();
+                elapsed = (double) (timeAfter-timeBefore)/1E9;
                 k++;
-                System.out.print("\r" + "String concatenation: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
-
-            } while (timeAfter - timeBefore < 1000);
-
-            System.out.print("\n");
-        }
+                System.out.print("\r" + k + ";"+ elapsed);
+            } while (elapsed < 1);
 
         System.out.println();
     }

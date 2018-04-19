@@ -8,7 +8,7 @@ public class StringBuilder1Char {
         long timeBefore;
         long timeAfter;
         double elapsed;
-        System.out.println("StringBuilder Test");
+        System.out.println("StringBuilder1 Test");
             k = 0;
             do {
                 StringBuilder s = new StringBuilder();
@@ -22,7 +22,6 @@ public class StringBuilder1Char {
                 elapsed = (double) (timeAfter - timeBefore)/1E9;
                 System.out.print("\r" + k + ";"+ elapsed);
                 k++;
-
             } while (elapsed < 1);
 
             System.out.println(k);

@@ -7,11 +7,11 @@ public class StringBuilder80Char {
         int k;
         long timeBefore;
         long timeAfter;
+        double elapsed;
+        k = 0;
 
-        for (int a = 0; a < 10; a++) {
-            k = 0;
-            // Appending 1 character string
-            do {
+        System.out.println("StringBuilder80 Test");
+        do {
                 StringBuilder s = new StringBuilder();
                 StringBuilder test = new StringBuilder();
                 for (int i = 0; i < 80; i++) {
@@ -19,21 +19,20 @@ public class StringBuilder80Char {
                 }
                 String s2 = test.toString();
                 System.gc();
-                timeBefore = System.currentTimeMillis();
-
+                timeBefore = System.nanoTime();
                 for (int i = 0; i < k; i++) {
                     s.append(s2);
                 }
                 s.toString();
+                timeAfter = System.nanoTime();
+                elapsed = (timeAfter - timeBefore)/1E9;
 
-                timeAfter = System.currentTimeMillis();
-                k+= 100;
-                System.out.print("\r" + "StringBuilder: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
-
-            } while (timeAfter - timeBefore < 1000);
+                System.out.print("\r" + k + ";"+ elapsed);
+                k++;
+            } while (elapsed < 1);
 
             System.out.print("\n");
-        }
+//        }
 
         System.out.println();
     }

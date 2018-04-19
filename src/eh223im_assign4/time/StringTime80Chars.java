@@ -9,7 +9,7 @@ public class StringTime80Chars {
         long timeBefore;
         long timeAfter;
 
-        // Appending 1 character string
+        System.out.println("String Test");
         for (int a = 0;a<100;a++) {
             k = 0;
 

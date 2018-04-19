@@ -8,27 +8,24 @@ public class StringConcat1Char {
         int k;
         long timeBefore;
         long timeAfter;
+        double elapsed;
 
-        for (int a = 0; a < 10; a++) {
-            k = 0;
-            // Appending 1 character string
-            do {
+        k = 0;
+
+        System.out.println("StringConcat1 Test");
+        do {
                 String s = "";
                 String test = String.valueOf((char) (Character.toUpperCase(new Random().nextInt(90 - 65 + 1) + 65)));
-                timeBefore = System.currentTimeMillis();
+                timeBefore = System.nanoTime();
                 for (int i = 0; i < k; i++) {
                     s += test;
                 }
-                timeAfter = System.currentTimeMillis();
-                k+=100;
-                System.out.print("\r" + "String Concatenation: " + k + " | "+ ((double) (timeAfter - timeBefore)/1000));
-            } while (timeAfter - timeBefore < 1000);
+                timeAfter = System.nanoTime();
+                elapsed = (double) (timeAfter - timeBefore)/1E9;
+                System.out.print("\r" + k + ";"+ elapsed);
+                k++;
+            } while (elapsed < 1);
 
             System.out.print("\n");
-
-            System.gc();
-        }
-
-        System.out.println();
     }
 }
