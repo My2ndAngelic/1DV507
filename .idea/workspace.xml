@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,8 +87,8 @@
       <file leaf-file-name="SortingTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+            <state relative-caret-position="301">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -594,7 +591,7 @@
       <workItem from="1523978370315" duration="1375000" />
       <workItem from="1524134710747" duration="2472000" />
       <workItem from="1524165106880" duration="179000" />
-      <workItem from="1524340597784" duration="395000" />
+      <workItem from="1524340597784" duration="969000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -639,7 +636,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="423969000" />
+    <option name="totallyTimeSpent" value="424543000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,7 +649,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
@@ -663,7 +659,7 @@
       <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.38984376" side_tool="true" visible="true" weight="0.35285714" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61015624" visible="true" weight="0.35285714" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.61015624" weight="0.35285714" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490625" weight="0.32857144" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
       <window_info id="Capture Tool" order="2" />
@@ -978,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+        <state relative-caret-position="301">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

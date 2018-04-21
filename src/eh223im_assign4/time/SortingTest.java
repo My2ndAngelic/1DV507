@@ -41,7 +41,7 @@ public class SortingTest {
     public static void main(String[] args) {
         int num = 1000000000;
         int max = 1000000000;
-        
+
         for (int i = 0; i < num; i++) {
             InsertionSort(i, max);
         }
