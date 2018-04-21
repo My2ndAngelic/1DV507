@@ -39,8 +39,15 @@ public class SortingTest {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i< 10000; i++) {
-            MergeTest(i, 100000);
+        int num = 1000000000;
+        int max = 1000000000;
+        
+        for (int i = 0; i < num; i++) {
+            InsertionSort(i, max);
+        }
+
+        for (int i = 0; i < num; i++) {
+            MergeTest(i, max);
         }
     }
 }
