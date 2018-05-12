@@ -6,9 +6,13 @@ public class BinaryIntHeap implements BinaryHeapInterface {
     private class Node {
         private int value;
 
+        Node left;
+        Node right;
+
         Node(int value) {
             this.value = value;
-
+            Node left;
+            Node right; 
 
         }
     }
