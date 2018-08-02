@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class LinkedQueueInterface<T> implements QueueInterface<T> {
+public class LinkedQueue<T> implements QueueInterface<T> {
     private T t;
 
     private int size; // Current size
@@ -14,7 +14,7 @@ public class LinkedQueueInterface<T> implements QueueInterface<T> {
     /**
      * Linked QueueInterface constructor
      */
-    public LinkedQueueInterface() {
+    public LinkedQueue() {
         size = 0;
         head = null;
         tail = null;
@@ -34,7 +34,7 @@ public class LinkedQueueInterface<T> implements QueueInterface<T> {
      *
      * @return types of the elements in the queue
      */
-    public T get() {
+    public T getT() {
         return t;
     }
 
@@ -167,7 +167,7 @@ public class LinkedQueueInterface<T> implements QueueInterface<T> {
         if (isEmpty()) {
             throw new NoSuchElementException("Empty list");
         } else {
-            return head.value;
+            return head.getValue();
         }
     }
 

@@ -10,7 +10,7 @@ import java.util.Arrays;
  * >https://www.youtube.com/watch?v=t0Cq6tVNRBA
  * Since array starts counting at 0, n-th element counts has position (n-1).
  */
-public class BinaryIntHeap_new implements BinaryHeapInterface{
+public class BinaryIntHeap implements BinaryHeapInterface{
     private int size;
 
     private int[] keyList; //Key storage of BIH
@@ -18,7 +18,7 @@ public class BinaryIntHeap_new implements BinaryHeapInterface{
     /**
      * Create new Binary Heap
      */
-    BinaryIntHeap_new() {
+    BinaryIntHeap() {
         size = 0;
         keyList = new int[10];
     }
@@ -75,17 +75,15 @@ public class BinaryIntHeap_new implements BinaryHeapInterface{
     // Swap down after delete
     private void traverseDown() {
         int i = 0, state = 0;
-        while (state >= 0) { //Check if children exist
+        while (state >= 0) { // Repeat until no left child
             if (hasLeftChild(i)) {
-                if(keyList[i] < getLeftChildValue(i)) {
+                if(keyList[i] < getLeftChildValue(i)) { // Check if need to swap left first
                     state = 0;
                 }
-                if(hasRightChild(i)) {
-                    if (getLeftChildValue(i) < getRightChildValue(i)) {
+                if(hasRightChild(i) && getLeftChildValue(i) < getRightChildValue(i)) { // If right exists and larger, swap right
                         state = 1;
-                    }
                 }
-            } else {
+            } else { // Else
                 state = -1;
             }
 

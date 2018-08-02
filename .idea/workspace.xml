@@ -3,15 +3,33 @@
   <component name="AnalysisUIOptions">
     <option name="SCOPE_TYPE" value="3" />
   </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" line="23" mnemonic="4" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1DV507.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1DV507.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Freyja.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Freyr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Loki.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Lóðurr.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Odin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Thor.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Vafþrúðnir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Víðarr.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/TimeComplexity.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,48 +38,77 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1562145356">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.492" value="1" />
+          <entry key="project.open.time.53" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="13" />
+          <entry key="java" value="7225" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7225" />
+          <entry key="PLAIN_TEXT" value="13" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="1DV507" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TinyPainter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="352" column="78" lean-forward="true" selection-start-line="352" selection-start-column="78" selection-end-line="352" selection-end-column="78" />
+            <state relative-caret-position="390">
+              <caret line="30" column="37" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringConcat1Char.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="315">
+              <caret line="21" column="21" selection-start-line="21" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestTime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/TestTime.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringConcat80Char.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat80Char.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder80Char.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -70,29 +117,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringBuilder1Char.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder1Char.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="185">
+              <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeSortingAlgorithms.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="65">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortingTest.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="155">
+              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -110,10 +187,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cleanString</find>
-      <find>clean</find>
-      <find>iny</find>
-      <find>”</find>
       <find>programmable</find>
       <find>treeword</find>
       <find>rehash</find>
@@ -140,6 +213,10 @@
       <find>isEmp</find>
       <find>Node</find>
       <find>class no</find>
+      <find>index</find>
+      <find>184</find>
+      <find>first</find>
+      <find>indexOF</find>
     </findStrings>
     <replaceStrings>
       <replace>Vehicle</replace>
@@ -171,20 +248,15 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/TWSTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/TreeWordSet.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign1/Histogram.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/Word.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordTest.java" />
-        <option value="$PROJECT_DIR$/words.txt" />
-        <option value="$PROJECT_DIR$/word2.txt" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount1Main.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordSet.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/MergeTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/WordMain.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign3/count_words/IdentifyWordsMain.java" />
@@ -209,18 +281,14 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign4/Queue.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/LQTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeExp.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/BInaryHeap.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/BinaryHeap.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/MergeSortWikipedia.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithmsTest.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingAlgorithmsTime.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime1Char.java" />
@@ -230,6 +298,15 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat80Char.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime80Chars.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueInterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/javaRan.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" />
       </list>
     </option>
@@ -255,10 +332,39 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eh223im_assign4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="eh223im_assign4" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -295,34 +401,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eh223im_assign1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="eh223im_assign3" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -342,11 +420,13 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533248875224" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last.edited.regexp" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -356,16 +436,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="eh223im_assign4.time" />
       <recent name="eh223im_assign4" />
+      <recent name="eh223im_assign4.time" />
       <recent name="eh223im_assign3" />
       <recent name="eh223im_assign3.count_words" />
       <recent name="eh223im_assign2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="eh223im_assign4" />
-      <recent name="eh223im_assign3.count_words" />
-      <recent name="eh223im_assign1" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/eh223im_assign1" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="eh223im_assign3.count_words" />
@@ -373,8 +451,10 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/eh223im_assign1" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="eh223im_assign4" />
+      <recent name="eh223im_assign3.count_words" />
+      <recent name="eh223im_assign1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -389,9 +469,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TinyPainter">
+  <component name="RunManager" selected="Application.SortingTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="SortingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.SortingTest" />
@@ -403,119 +486,113 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="StringBuilder1Char" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.StringBuilder1Char" />
-      <module name="1DV507" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eh223im_assign4.time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringBuilder80Char" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.StringBuilder80Char" />
-      <module name="1DV507" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eh223im_assign4.time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="StringConcat80Char" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.time.StringConcat80Char" />
-      <module name="1DV507" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eh223im_assign4.time.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TinyPainter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign3.TinyPainter" />
-      <module name="1DV507" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eh223im_assign3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javaInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.javaInt" />
+      <module name="1DV507" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eh223im_assign4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javaRan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.javaRan" />
+      <module name="1DV507" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eh223im_assign4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinaryIntHeapTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1DV507" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eh223im_assign4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eh223im_assign4" />
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.BinaryIntHeapTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1DV507" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eh223im_assign4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="eh223im_assign4" />
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.LinkedQueueTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StringBuilder80Char" />
+      <item itemvalue="Application.javaRan" />
+      <item itemvalue="JUnit.LinkedQueueTest" />
+      <item itemvalue="Application.javaInt" />
+      <item itemvalue="JUnit.BinaryIntHeapTest.isEmpty" />
       <item itemvalue="Application.SortingTest" />
-      <item itemvalue="Application.StringBuilder1Char" />
-      <item itemvalue="Application.StringConcat80Char" />
-      <item itemvalue="Application.TinyPainter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TinyPainter" />
         <item itemvalue="Application.SortingTest" />
-        <item itemvalue="Application.StringBuilder80Char" />
-        <item itemvalue="Application.StringBuilder1Char" />
-        <item itemvalue="Application.StringConcat80Char" />
+        <item itemvalue="Application.javaInt" />
+        <item itemvalue="JUnit.BinaryIntHeapTest.isEmpty" />
+        <item itemvalue="JUnit.LinkedQueueTest" />
+        <item itemvalue="Application.javaRan" />
       </list>
     </recent_temporary>
   </component>
@@ -603,6 +680,9 @@
       <workItem from="1524958548056" duration="190000" />
       <workItem from="1525091907985" duration="856000" />
       <workItem from="1525183480082" duration="1665000" />
+      <workItem from="1533113250896" duration="12741000" />
+      <workItem from="1533149136816" duration="5456000" />
+      <workItem from="1533246268571" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -615,39 +695,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SortingAlgorithmsTest_insertionSortT1 - 2018.02.16 at 21h 54m 58s.xml">
-      <configuration name="SortingAlgorithmsTest.insertionSortT1" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 37m 28s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortingAlgorithmsTest_insertionSortT1 - 2018.02.16 at 21h 57m 08s.xml">
-      <configuration name="SortingAlgorithmsTest.insertionSortT1" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 37m 45s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SortingAlgorithmsTest_insertionSortT1 - 2018.02.18 at 22h 53m 07s.xml">
-      <configuration name="SortingAlgorithmsTest.insertionSortT1" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 38m 46s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 17m 27s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 38m 57s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 18m 03s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 39m 45s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 18m 32s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 16h 39m 54s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 18m 50s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 18h 43m 06s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 20m 13s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="LinkedQueueTest - 2018.08.01 at 18h 43m 25s.xml">
+      <configuration name="LinkedQueueTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 20m 21s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="BinaryIntHeapTest_isEmpty - 2018.08.01 at 21h 47m 33s.xml">
+      <configuration name="BinaryIntHeapTest.isEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LeSortingAlgorithmsTest_mergeSort - 2018.04.10 at 13h 21m 05s.xml">
-      <configuration name="LeSortingAlgorithmsTest.mergeSort" configurationId="JUnit" />
+    <history-entry file="BinaryIntHeapTest_isEmpty - 2018.08.01 at 22h 15m 03s.xml">
+      <configuration name="BinaryIntHeapTest.isEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="427756000" />
+    <option name="totallyTimeSpent" value="447962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -659,37 +739,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3296875" weight="0.32714286" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.390625" side_tool="true" visible="true" weight="0.35285714" />
-      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490625" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.609375" weight="0.35285714" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3298969" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.556044" visible="true" weight="0.16558966" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.556044" visible="true" weight="0.15859374" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.44395605" side_tool="true" weight="0.2907916" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.3298969" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48465267" weight="0.32599118" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58966076" visible="true" weight="0.35095447" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4859375" weight="0.32857144" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.41033927" side_tool="true" weight="0.18942732" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.490625" weight="0.32857144" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.3101777" weight="0.32599118" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959612" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -707,32 +788,11 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="8" />
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/IdentifyWordsMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-366">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Object.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Iterator.java" />
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/WordTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/WordCount1Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -811,13 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/CircularQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -854,13 +907,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/MergeSortWikipedia.java" />
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithmsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -869,64 +915,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/Rotate.java" />
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3195">
-          <caret line="231" column="29" selection-start-line="231" selection-start-column="29" selection-end-line="231" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LQTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/InsertionSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeExp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -934,10 +924,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="184">
+          <caret line="352" column="34" selection-start-line="352" selection-start-column="34" selection-end-line="352" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -950,11 +947,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTime80Chars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-222">
           <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/TestMaterials.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LQTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeExp.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/TestTime.java" />
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat80Char.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -962,31 +970,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaRan.java" />
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state relative-caret-position="3195">
+          <caret line="231" column="28" selection-start-line="231" selection-start-column="28" selection-end-line="231" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/TestTime.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="21" selection-start-line="21" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign2/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign3/TinyPainter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="352" column="78" lean-forward="true" selection-start-line="352" selection-start-column="78" selection-end-line="352" selection-end-column="78" />
+        <state relative-caret-position="155">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>

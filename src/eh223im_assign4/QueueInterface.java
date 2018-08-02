@@ -2,7 +2,7 @@ package eh223im_assign4;
 
 import java.util.Iterator;
 
-public interface Queue<T> {
+public interface QueueInterface<T> {
     int size();                     // current queue size
 
     boolean isEmpty();              // true if queue is empty
