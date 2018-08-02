@@ -7,27 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" line="23" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1DV507.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1DV507.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Freyja.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Freyr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Loki.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Lóðurr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Odin.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Thor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Vafþrúðnir.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/1DV507/eh223im_assign3/Víðarr.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,12 +42,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="java" value="7225" />
+          <entry key="java" value="7241" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7225" />
+          <entry key="JAVA" value="7241" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -168,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+            <state relative-caret-position="110">
+              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -420,7 +400,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533248875224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533249186349" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -682,7 +662,7 @@
       <workItem from="1525183480082" duration="1665000" />
       <workItem from="1533113250896" duration="12741000" />
       <workItem from="1533149136816" duration="5456000" />
-      <workItem from="1533246268571" duration="2009000" />
+      <workItem from="1533246268571" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -727,7 +707,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="447962000" />
+    <option name="totallyTimeSpent" value="448338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        <state relative-caret-position="110">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
         </state>
       </provider>
     </entry>

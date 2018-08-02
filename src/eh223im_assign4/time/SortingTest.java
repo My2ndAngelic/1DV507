@@ -58,13 +58,13 @@ public class SortingTest {
         int num = 100000000;
         int max = 100000000;
 
-        for (int i = 0; i < num; i+=50000) {
+        for (int i = 0; i < num; i+=1000000) {
             MergeTest(i, max);
         }
 
         System.out.println("\n---\n");
 
-        for (int i = 0; i < num; i+=50000) {
+        for (int i = 0; i < num; i+=1000000) {
             InsertionTest(i, max);
         }
     }
