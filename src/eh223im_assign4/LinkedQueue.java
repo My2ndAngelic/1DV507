@@ -4,7 +4,7 @@ import java.util.EmptyStackException;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
-public class LinkedQueue<T> implements Queue<T> {
+public class LinkedQueueInterface<T> implements QueueInterface<T> {
     private T t;
 
     private int size; // Current size
@@ -12,9 +12,9 @@ public class LinkedQueue<T> implements Queue<T> {
     private Node tail;
 
     /**
-     * Linked Queue constructor
+     * Linked QueueInterface constructor
      */
-    public LinkedQueue() {
+    public LinkedQueueInterface() {
         size = 0;
         head = null;
         tail = null;
