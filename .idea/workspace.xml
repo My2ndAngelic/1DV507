@@ -7,13 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java" line="23" mnemonic="4" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
-      <change afterPath="$PROJECT_DIR$/src/eh223im_assign4/BIHT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+            <state relative-caret-position="1680">
+              <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
               <folding>
                 <element signature="e#2534#2535#0" expanded="true" />
                 <element signature="e#2561#2562#0" expanded="true" />
@@ -98,20 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
+            <state relative-caret-position="-235">
               <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BIHT.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -125,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="339">
+              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -410,7 +395,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533267608063" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533267868317" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -679,7 +664,7 @@
       <workItem from="1533113250896" duration="12741000" />
       <workItem from="1533149136816" duration="5456000" />
       <workItem from="1533246268571" duration="4052000" />
-      <workItem from="1533255847191" duration="10053000" />
+      <workItem from="1533255847191" duration="10311000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -724,7 +709,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="460058000" />
+    <option name="totallyTimeSpent" value="460316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,7 +724,7 @@
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.556044" visible="true" weight="0.16801292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.556044" visible="true" weight="0.16801292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -748,7 +733,7 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.48465267" weight="0.32599118" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.58966076" visible="true" weight="0.35095447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.58966076" visible="true" weight="0.35095447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -982,16 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="885">
@@ -1034,10 +1009,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        <state relative-caret-position="1680">
+          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
           <folding>
             <element signature="e#2534#2535#0" expanded="true" />
             <element signature="e#2561#2562#0" expanded="true" />
@@ -1047,10 +1029,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/javaInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="41" column="16" lean-forward="true" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        <state relative-caret-position="339">
+          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
