@@ -85,12 +85,6 @@ public class SortingTest {
         int max = 1000000000;
 
         for (int i = 0; i < num; i+=1000000) {
-            QuickTest(i, max);
-        }
-
-        System.out.println("\n---\n");
-
-        for (int i = 0; i < num; i+=1000000) {
             MergeTest(i, max);
         }
 
@@ -98,6 +92,12 @@ public class SortingTest {
 
         for (int i = 0; i < num; i+=1000000) {
             InsertionTest(i, max);
+        }
+
+        System.out.println("\n---\n");
+
+        for (int i = 0; i < num; i+=1000000) {
+            QuickTest(i, max);
         }
     }
 }

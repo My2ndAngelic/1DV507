@@ -30,19 +30,17 @@ public class BinaryIntHeap implements BinaryHeapInterface{
      */
     @Override
     public void insert(int n) {
+        arrayCheck();
         keyList[size] = n;
         size++;
         traverseUp();
-        arrayCheck();
     }
 
     // Swap up after insert
     private void traverseUp() {
         int i = size-1;
-        while(hasParent(i)) {
-            if (keyList[i]>getParentValue(i)) {
-                swapItem(i, getParentIndex(i));
-            }
+        while(hasParent(i) && keyList[i]>getParentValue(i)) {
+            swapItem(i, getParentIndex(i));
             i = getParentIndex(i);
         }
     }
@@ -74,27 +72,22 @@ public class BinaryIntHeap implements BinaryHeapInterface{
 
     // Swap down after delete
     private void traverseDown() {
-        int i = 0, state = 0;
-        while (state >= 0) { // Repeat until no left child
-            if (hasLeftChild(i)) {
-                if(keyList[i] < getLeftChildValue(i)) { // Check if need to swap left first
-                    state = 0;
-                }
-                if(hasRightChild(i) && getLeftChildValue(i) < getRightChildValue(i)) { // If right exists and larger, swap right
-                        state = 1;
-                }
-            } else { // Else
-                state = -1;
+        int i = 0, state = -1;
+        while (hasLeftChild(i)) { // Repeat until no left child
+            int maxChild = 0;
+            if (hasRightChild(i) && getLeftChildValue(i) < getRightChildValue(i)) {
+                maxChild = 1;
             }
-
-            switch (state) { // Check the state, then do it
-                case 0:     swapItem(i,getLeftChildIndex(i));
-                            i = getLeftChildIndex(i);
-                            break;
-                case 1:     swapItem(i,getRightChildIndex(i));
-                            i = getRightChildIndex(i);
-                            break;
-                default:    break;
+            if (maxChild == 0) {
+                if (getLeftChildValue(i) > keyList[i]) {
+                    swapItem(i, getLeftChildIndex(i));
+                }
+                i = getLeftChildIndex(i);
+            } else {
+                if (getRightChildValue(i) > keyList[i]) {
+                    swapItem(i, getRightChildIndex(i));
+                }
+                i = getRightChildIndex(i);
             }
         }
     }
@@ -117,31 +110,25 @@ public class BinaryIntHeap implements BinaryHeapInterface{
         return size==0;
     }
 
-    /**
-     * Output array
-     * @return array of the heap
-     */
     public int[] printArray() {
-        int[] out = new int[size];
-        for (int i = 0; i<size; i++) {
-            out[i] = keyList[i];
-        }
-        return out;
+        int[] a = new int[size];
+        System.arraycopy(keyList, 0, a, 0, size);
+        return a;
     }
 
 
     // Utility functions: Parent
-    private int getParentIndex(int child) {return Math.floorDiv(child-1,2);}
+    private int getParentIndex(int child) {return (child - 1) / 2;}
     private int getParentValue(int child) {return keyList[getParentIndex(child)];}
     private boolean hasParent(int child) {return getParentIndex(child) >= 0;}
     // Utility functions: Left child
-    private int getLeftChildIndex(int parent) {return (parent+1)*2-1;}
+    private int getLeftChildIndex(int parent) {return (parent*2)+1;}
     private int getLeftChildValue(int parent) {return keyList[getLeftChildIndex(parent)];}
-    private boolean hasLeftChild(int parent){return getLeftChildIndex(parent) <= size-1;}
+    private boolean hasLeftChild(int parent){return getLeftChildIndex(parent) < size;}
     // Utility functions: Right child
-    private int getRightChildIndex(int parent) {return (parent+1)*2;}
+    private int getRightChildIndex(int parent) {return (parent*2)+2;}
     private int getRightChildValue(int parent) {return keyList[getRightChildIndex(parent)];}
-    private boolean hasRightChild(int parent){return getRightChildIndex(parent) <= size-1;}
+    private boolean hasRightChild(int parent){return getRightChildIndex(parent) < size;}
     // Utility function: swapping item
     private void swapItem(int indexA, int indexB) {
         int temp = keyList[indexA];
