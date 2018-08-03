@@ -1,4 +1,4 @@
-package eh223im_assign4;
+package outside;
 
 import java.lang.reflect.Method;
 import java.util.Arrays;
@@ -24,7 +24,7 @@ public class javaInt {
             System.out.println(Arrays.toString((int[]) method.invoke(arr, arr, -100, 100)));
 
             Class c2 = Class.forName("eh223im_assign4.time.LeSortingAlgorithms");
-            Method m = c2.getMethod("MergeSort", int[].class);
+            Method m = c2.getMethod("mergeIntSort", int[].class);
             System.out.println(Arrays.toString((int[]) m.invoke("",arr)));
 
             int[] carr = Arrays.copyOf(arr,arr.length);

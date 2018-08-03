@@ -1,6 +1,9 @@
 package eh223im_assign4;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.EmptyStackException;
+import java.util.NoSuchElementException;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -27,24 +30,6 @@ class LinkedQueueTest {
         return s;
     }
 
-    // Generate int[] for checking, also require requires arr <= max - min + 1 to avoid duplication
-    private static int[] intGenerator(int[] arr, int min, int max) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
-        for (int i = 0; i< arr.length; i++) {
-            int f = new Random().nextInt(max - min + 1) + min;
-            arrayList.add(f);
-            while (arrayList.indexOf(f) < i) {
-                arrayList.remove(i);
-                f = new Random().nextInt(max - min + 1) + min;
-                arrayList.add(f);
-            }
-        }
-        for (int i = 0; i<arr.length; i++) {
-            arr[i] = arrayList.get(i);
-        }
-        return arr;
-    }
-
     @org.junit.jupiter.api.Test
     void get() {
         // String
@@ -61,7 +46,7 @@ class LinkedQueueTest {
         // // Empty
         assertEquals(INT.size(),0);
         // // Small case
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         for (int aSmallInt : smallInt) {
             int k = new Random().nextInt(smallInt.length - 1);
             assertEquals(String.valueOf(smallInt[k]), String.valueOf(INT.get(k)));
@@ -93,14 +78,14 @@ class LinkedQueueTest {
         // // Empty
         assertEquals(INT.size(),0);
         // // Small case
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         assertEquals(INT.size(),100);
         // // Medium case
         i = INT.size();
         for (int k = 0; k<i;k++) {
             INT.dequeue();
         }
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         assertEquals(INT.size(),10000);
 
         for (int k = 0; k<i;k++) {
@@ -129,7 +114,7 @@ class LinkedQueueTest {
         // // Empty
         assertTrue(INT.isEmpty());
         // // Small case
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         assertFalse(INT.isEmpty());
         // // Medium case
         i = INT.size();
@@ -137,7 +122,7 @@ class LinkedQueueTest {
             INT.dequeue();
         }
         assertTrue(INT.isEmpty());
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         assertFalse(INT.isEmpty());
         // // Big case
         i = INT.size();
@@ -165,11 +150,11 @@ class LinkedQueueTest {
         // // Empty
         assertThrows(EmptyStackException.class, () -> INT.dequeue());
         // // Each and every element
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         for (int aSmallInt : smallInt) {
             assertEquals(Integer.parseInt(String.valueOf(INT.dequeue())), Integer.parseInt(String.valueOf(aSmallInt)));
         }
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         for (int aMediumInt : mediumInt) {
             assertEquals(Integer.parseInt(String.valueOf(INT.dequeue())), Integer.parseInt(String.valueOf(aMediumInt)));
         }
@@ -197,7 +182,7 @@ class LinkedQueueTest {
         assertThrows(NoSuchElementException.class, () -> INT.indexOf(10));
         // // Each and every element
         // // // Small
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
 
         for (int i = 0; i<smallInt.length; i++) {
             assertEquals(i,INT.indexOf(smallInt[i]));
@@ -206,7 +191,7 @@ class LinkedQueueTest {
             INT.dequeue();
         }
         // // // Medium
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         int rand = new Random().nextInt(mediumInt.length - 1);
         for (int i = 0; i<rand; i++) {
             assertEquals(i,INT.indexOf(mediumInt[i]));
@@ -237,13 +222,13 @@ class LinkedQueueTest {
         assertThrows(NoSuchElementException.class, () -> INT.first());
         // // Each and every element
         // // // Small
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         for (int aSmallInt : smallInt) {
             assertEquals(aSmallInt,Integer.parseInt(String.valueOf(INT.first())));
             INT.dequeue();
         }
         // // // Medium
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         for (int aMediumInt : mediumInt) {
             assertEquals(aMediumInt, Integer.parseInt(String.valueOf(INT.first())));
             INT.dequeue();
@@ -271,13 +256,13 @@ class LinkedQueueTest {
         assertThrows(NoSuchElementException.class, () -> INT.last());
         // // Each and every element
         // // // Small
-        INT.enqueueAll(IntStream.of(intGenerator(smallInt,-100,100)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(smallInt, -100, 100)).boxed().collect(Collectors.toList()));
         for (int aSmallInt : smallInt) {
             assertEquals(smallInt[smallInt.length - 1],Integer.parseInt(String.valueOf(INT.last())));
             INT.dequeue();
         }
         // // // Medium
-        INT.enqueueAll(IntStream.of(intGenerator(mediumInt,-10000,10000)).boxed().collect(Collectors.toList()));
+        INT.enqueueAll(IntStream.of(TestKit.intGenerator(mediumInt, -10000, 10000)).boxed().collect(Collectors.toList()));
         for (int aMediumInt : mediumInt) {
             assertEquals(mediumInt[mediumInt.length - 1], Integer.parseInt(String.valueOf(INT.last())));
             INT.dequeue();

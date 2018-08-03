@@ -14,11 +14,10 @@ public class SortingTest {
 
         System.gc();
         long t1 = System.nanoTime();
-        sortingArr = LeSortingAlgorithms.MergeSort(sortingArr);
+        sortingArr = LeSortingAlgorithms.mergeIntSort(sortingArr);
         long t2 = System.nanoTime();
         time = t2 - t1;
 
-        t2 = System.nanoTime();
         int[] checkArr = Arrays.copyOf(sortingArr,sortingArr.length);
         Arrays.sort(checkArr);
 
@@ -39,11 +38,10 @@ public class SortingTest {
 
         System.gc();
         long t1 = System.nanoTime();
-        sortingArr = LeSortingAlgorithms.InsertionSort(sortingArr);
+        sortingArr = LeSortingAlgorithms.insertionIntSort(sortingArr);
         long t2 = System.nanoTime();
         time = t2 - t1;
 
-        t1 = System.nanoTime();
         int[] checkArr = Arrays.copyOf(sortingArr,sortingArr.length);
         Arrays.sort(checkArr);
 
@@ -68,7 +66,6 @@ public class SortingTest {
         long t2 = System.nanoTime();
         time = t2 - t1;
 
-        t1 = System.nanoTime();
         int[] checkArr = Arrays.copyOf(sortingArr,sortingArr.length);
         Arrays.sort(checkArr);
 
@@ -79,25 +76,4 @@ public class SortingTest {
         }
     }
 
-
-    public static void main(String[] args) {
-        int num = 1000000000;
-        int max = 1000000000;
-
-        for (int i = 0; i < num; i+=1000000) {
-            MergeTest(i, max);
-        }
-
-        System.out.println("\n---\n");
-
-        for (int i = 0; i < num; i+=1000000) {
-            InsertionTest(i, max);
-        }
-
-        System.out.println("\n---\n");
-
-        for (int i = 0; i < num; i+=1000000) {
-            QuickTest(i, max);
-        }
-    }
 }
