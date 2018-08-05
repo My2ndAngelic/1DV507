@@ -7,9 +7,9 @@ import java.util.Random;
 
 public class TestKit {
     // Generate int[] for checking, also require requires arr <= max - min + 1 to avoid duplication
-    public static int[] intGenerator(int[] arr, int min, int max) {
+    public static int[] intsGenerator(int[] arr, int min, int max) {
         ArrayList<Integer> arrayList = new ArrayList<>();
-        if (min < max && (max - min) >= arr.length) {
+        if (min <= max && (max - min) > arr.length) {
             for (int i = 0; i < arr.length; i++) {
                 int f = new Random().nextInt(max - min + 1) + min;
                 arrayList.add(f);
@@ -28,7 +28,7 @@ public class TestKit {
 
     public static String[] stringsGenerator(String[] arr, int min, int max) {
         ArrayList<String> arrayList = new ArrayList<>();
-        if (min < max && min > 0) {
+        if (min <= max) {
             for (int i = 0; i < arr.length; i++) {
                 String a = RandomStringUtils.randomAlphanumeric(min, max);
                 arrayList.add(a);
@@ -39,6 +39,8 @@ public class TestKit {
                 }
             }
             return arrayList.toArray(new String[0]);
-        } else throw new IllegalArgumentException("Check range");
+        } else {
+            throw new IllegalArgumentException("Check range");
+        }
     }
 }
