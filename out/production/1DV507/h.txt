@@ -1,0 +1,2 @@
+/usr/local/sbin:/usr/local/bin:/usr/local/opt/openssl/bin:/usr/local/opt/curl/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS
+/usr/local/sbin:/usr/local/bin:/usr/local/opt/openssl/bin:/usr/local/opt/curl/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Library/TeX/texbin:/Applications/Wireshark.app/Contents/MacOS
