@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39ecc6e5-3577-4060-a33f-bd5cb05a8656" name="Default" comment="Test">
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryHeapInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/BinaryHeapInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/BinaryIntHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/BinaryIntHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/BinaryIntHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/LinkedQueueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/QueueInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/QueueInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB1C.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB1C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SB1C.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB1C.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB1C.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SB1C.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB80C.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB80C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SB80C.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB80C.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SB80C.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SB80C.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC1C.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC1C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SC1C.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC1C.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC1C.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SC1C.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC80C.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC80C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SC80C.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC80C.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/SC80C.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/SC80C.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/TestKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/require/TestKit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/LinkedQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/data_structure/LinkedQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/Report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/Report.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder1Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/StringBuilder1Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringBuilder80Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/StringBuilder80Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat1Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/StringConcat1Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringConcat80Char.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/StringConcat80Char.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/StringTime80Chars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/StringTime80Chars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/outside/BinaryIntHeap_old.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/BinaryIntHeap_old.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/outside/DataResults/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/outside/DataResults/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,18 +74,29 @@
     <session id="-568360592">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="27" />
+          <entry key="java" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="27" />
+          <entry key="JAVA" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -121,15 +107,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/outside/StringConcat80Char.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/outside/StringTime80Chars.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -138,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+            <state relative-caret-position="485">
+              <caret line="143" column="34" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,10 +128,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/TestKit.java">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/require/TestKit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -171,11 +148,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+            <state relative-caret-position="300">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -297,7 +283,7 @@
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign3/count_words/TWSTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/outside/StringConcat1Char.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/eh223im_assign1/Histogram.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/TestKit.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/eh223im_assign4/require/TestKit.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -351,8 +337,8 @@
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/new_string.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/DataResults/Test.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/TestKit.java" />
-        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" />
         <option value="$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeTest.java" />
+        <option value="$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java" />
       </list>
     </option>
   </component>
@@ -438,6 +424,11 @@
             <path>
               <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
               <item name="1DV507" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1DV507" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1DV507" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -465,7 +456,7 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533731035742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533751845864" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -493,13 +484,14 @@
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="eh223im_assign4.TestKit" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="eh223im_assign4.data_structure" />
+      <recent name="outside" />
+      <recent name="eh223im_assign4.time" />
+      <recent name="eh223im_assign3.count_words" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/eh223im_assign1" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="eh223im_assign4.time" />
-      <recent name="outside" />
-      <recent name="eh223im_assign3.count_words" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="eh223im_assign4" />
@@ -583,7 +575,7 @@
       </method>
     </configuration>
     <configuration name="TestKit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.TestKit" />
+      <option name="MAIN_CLASS_NAME" value="eh223im_assign4.require.TestKit" />
       <module name="1DV507" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -742,7 +734,7 @@
       <workItem from="1533342072936" duration="522000" />
       <workItem from="1533344898714" duration="2744000" />
       <workItem from="1533377898235" duration="1097000" />
-      <workItem from="1533729329559" duration="985000" />
+      <workItem from="1533729329559" duration="3907000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1520202494249</created>
@@ -794,7 +786,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483385000" />
+    <option name="totallyTimeSpent" value="486307000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1046,13 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-881">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/outside/javaInt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -1095,13 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/TestKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/outside/DataResults/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1140,20 +1118,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/require/TestKit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/StringTimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="40" column="65" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="65" />
+        <state relative-caret-position="300">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/LeSortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eh223im_assign4/time/SortingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="143" column="34" selection-start-line="143" selection-start-column="34" selection-end-line="143" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-package eh223im_assign4;
+package eh223im_assign4.require;
 
 import org.apache.commons.lang3.RandomStringUtils;
 

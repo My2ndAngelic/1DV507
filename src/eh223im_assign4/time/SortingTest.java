@@ -1,6 +1,6 @@
 package eh223im_assign4.time;
 
-import eh223im_assign4.TestKit;
+import eh223im_assign4.require.TestKit;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.util.ArrayList;
