@@ -1,4 +1,4 @@
-package eh223im_assign4;
+package eh223im_assign4.data_structure;
 
 public interface BinaryHeapInterface {
     public void insert(int n);

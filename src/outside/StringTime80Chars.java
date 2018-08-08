@@ -1,4 +1,4 @@
-package eh223im_assign4.time;
+package outside;
 
 import java.util.Random;
 

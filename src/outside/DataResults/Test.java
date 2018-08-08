@@ -1,4 +1,4 @@
-package eh223im_assign4.time.DataResults;
+package outside.DataResults;
 
 import eh223im_assign4.TestKit;
 

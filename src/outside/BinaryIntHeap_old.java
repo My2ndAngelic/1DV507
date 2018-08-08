@@ -1,5 +1,7 @@
 package eh223im_assign4;
 
+import eh223im_assign4.data_structure.BinaryHeapInterface;
+
 import java.util.Arrays;
 
 public class BinaryIntHeap_old implements BinaryHeapInterface {
